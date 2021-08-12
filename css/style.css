@@ -1,0 +1,122 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  body > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }
+
+
+
+
+  
+.md-mensagem .modal-header{
+  display: block;
+  border-bottom: none;
+}
+.md-mensagem .modal-header .h-icone{
+  display: block;
+  position: relative;
+  margin-top: 32px;
+  text-align: center;
+  font-size: 40px;
+}
+.md-mensagem .modal-header .h-icone+h5{
+  margin-top: 8px;
+}
+.md-mensagem .modal-header .close{
+  display: none;
+}
+.md-mensagem .modal-title{
+  margin-top: 0;
+  text-align: center;
+  margin-top: 32px;
+}
+.md-mensagem .modal-footer{
+  text-align: center;
+  margin-bottom: 32px;
+  border-top: none;
+  justify-content: center;
+}
+.modal-content{
+  box-shadow: 0 2px 2px rgba(0,0,0,.2);
+  border: none;
+}
+.modal-backdrop.show{
+  opacity: .2;
+}
+.modal.zoom
+{
+  opacity:1;
+  transform:scale(1);
+  -webkit-animation-name: modal_zoom;
+  -webkit-animation-duration: .2s;
+  animation-name: modal_zoom;
+  animation-duration: .2s;
+}
+@-webkit-keyframes modal_zoom
+{
+  from
+  {
+      opacity: 0;
+      transform:scale(.9);
+  }
+  to
+  {
+      opacity: 1;
+      transform:scale(1);
+  }
+}
+@keyframes modal_zoom
+{
+  from
+  {
+      opacity: 0;
+      transform:scale(.9);
+  }
+  to
+  {
+      opacity: 1;
+      transform:scale(1);
+  }
+}
+
+a.fav{
+  font-size: 30px;
+  line-height: 15px;
+  color: #BBB;
+}
+
+a.fav.faved{
+  color: #FA0;
+}

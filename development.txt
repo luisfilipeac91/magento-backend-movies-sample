@@ -1,0 +1,12 @@
+/*
+--------------------------------------------###
+RESUMO DO WORKFLOW DE DESENVOLVIMENTO
+
+***
+Luis Filipe dos Anjos Couto
+*/
+2021-07-11 22:00 - Iniciei alguns estudos sobre o Magento, não sei se parece como o WordPress, tive bastante contato em manutenção de plugins e rotinas internas ("functions.php", etc)
+2021-07-12 08:00 - Optei por desenver a aplicação do zero utilizando conceito MVC padrão... Criei front-end para cadastro de filmes utilizando API do The Movie DataBase, em relação a base de dados, utilizo frequentemente o MySQL e o SQL Server, neste projeto optei por utilizar o SQLite para ficar mais facil o teste da aplicação pelo avaliador
+2021-07-12 09:00 - Criei a API no site TMDB e comecei a criar a tela de cadastro (onde busca o ID ref. ao TMDB para cadastro interno dos títulos)
+2021-07-12 13:30 - Criei o processo de favoritar os filmes... Também seguindo as regras MVC
+2021-07-12 14:45 - Finalizando alguns ajustes e realizando deploy para o Git
